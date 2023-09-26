@@ -143,7 +143,7 @@ You can test the second environment:
 You can alter between environments freely using the following command:
 
 ```
-> conda activate <environment_name>
+> conda activate cassandra-tutorial 
 ```
 
 To return to “base” use:
