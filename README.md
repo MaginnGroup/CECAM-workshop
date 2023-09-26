@@ -124,12 +124,12 @@ conda environment required to run this workshop. If you did NOT install mamba,
 type:
 
 ```
-> conda create -n cassandra-tutorial mosdef_cassandra matplotlib jupyter garnett pycifrw -y
+> conda create -n cassandra-tutorial mosdef_cassandra matplotlib jupyter garnett pycifrw jupyter -y
 ```
 Alternatively, if you decided to install mamba in the base environment:
 
 ```
-> mamba create -n cassandra-tutorial mosdef_cassandra matplotlib jupyter garnett pycifrw -y
+> mamba create -n cassandra-tutorial mosdef_cassandra matplotlib jupyter garnett pycifrw jupyter -y
 ```
 
 You can test the second environment:
@@ -151,3 +151,19 @@ To return to “base” use:
 ```
 > conda deactivate
 ```
+
+## Lanuch the notebook 
+
+Clone this GitHub repository by doing
+
+```
+> git clone https://github.com/maginngroup/cecam-workshop 
+```
+
+Navigate to the root directory and do
+
+```
+> jupyter notebook 
+```
+
+Select the notebook that you would like to explore and have fun!
