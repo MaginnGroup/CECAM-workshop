@@ -13,7 +13,7 @@ best practices](https://education.molssi.org/python-package-best-practices/).
 
 ## Preliminaries
 
-In preparation for this workshop, you will need to have the MoSDeF set of tools, which include mBuild, Foyer, mosdef_cassanra
+In preparation for this workshop, you will need to have the MoSDeF set of tools, which include mBuild, Foyer, mosdef_cassandra
 installed on your computer.
 
 This workshop will require the use of the Python programming language and many libraries that are available in that
