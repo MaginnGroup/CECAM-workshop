@@ -50,36 +50,6 @@ recommend reading the [excellent WSL2 documentation](https://learn.microsoft.com
 
 The instructions after this section need to be entered in the terminal.
 
-## Installing a text editor
-
-There are many excellent editors you could use. For example, vim, emacs, nano, gedit, sublime, visual studio code,
-etc. Gedit is an editor that might be familiar to some, as it is similar to Notepad on Windows. If you would like to
-install gedit, for example, do the following
-
-WSL2 and Linux
-```
-> sudo apt-get install gedit
-```
-You will be asked to enter your password.
-
-MacOS
-You might need to install homebrew, which is a package manager for Mac. To install it,
-follow the instructions at this web page or open the terminal and type the following: 
-
-```
-> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-Follow the instructions on the screen. You may be asked for the password of your machine, so have that ready. 
-
-Then you can install many packages. You can search for them here.
-
-The installation command will be given. For example, to install gedit, you would type
-
-```
-> brew install gedit
-```
-
 ## Installing miniconda
 
 The installers for miniconda can be obtained from the download section of the conda website. Below we provide the
