@@ -108,7 +108,7 @@ maintained by the developers and are relatively up to date.
 Conda-forge does not come as a default package in conda, so we need to add it first
 
 ```
-> conda config  --add channels conda-forge
+> conda config --add channels conda-forge
 > conda config –-set channel_priority strict
 ```
 Optional and suggested: you might want to install mamba, a C++ reimplementation of conda. This will make it fast to
