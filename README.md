@@ -152,7 +152,7 @@ To return to “base” use:
 > conda deactivate
 ```
 
-## Lanuch the notebook 
+## Launch the notebook 
 
 Clone this GitHub repository by doing
 
