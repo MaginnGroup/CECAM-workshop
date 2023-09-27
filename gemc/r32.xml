@@ -1,0 +1,22 @@
+<ForceField name="r32" version="0.0.1">
+<AtomTypes>
+ <Type name="C" class="C" element="C" mass="12.011" def="C(F)(F)" desc="central carbon"/>
+ <Type name="H" class="H" element="H" mass="1.008" def="H(C)" desc="first H bonded to C1_s1"/>
+ <Type name="F" class="F" element="F" mass="18.998" def="F(C)" desc="F bonded to C1_s1"/>
+</AtomTypes>
+<HarmonicBondForce>
+ <Bond class1="C" class2="H" length="0.10961" k="277566.56"/>
+ <Bond class1="C" class2="F" length="0.13497" k="298653.92"/>
+</HarmonicBondForce>
+<HarmonicAngleForce>
+ <Angle class1="H" class2="C" class3="H" angle="1.9233528356977512" k="326.352"/>
+ <Angle class1="F" class2="C" class3="H" angle="1.898743693244631" k="427.6048"/>
+ <Angle class1="F" class2="C" class3="F" angle="1.8737854849411122" k="593.2912"/>
+</HarmonicAngleForce>
+<NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
+ <Atom type="C" charge="0.405467" sigma="0.3709638067695299" epsilon="0.49512003740636584"/>
+ <Atom type="H" charge="0.0480495" sigma="0.21280617379081151" epsilon="0.07811123370239087"/>
+ <Atom type="F" charge="-0.250783" sigma="0.282153783007059" epsilon="0.23971509706811228"/>
+</NonbondedForce>
+</ForceField>
+
