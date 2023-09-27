@@ -1,0 +1,38 @@
+name: mc_cecam
+channels:
+  - conda-forge
+dependencies:
+  - constrainmol
+  - ele
+  - foyer
+  - freud
+  - gmso>=0.11.1
+  - gromacs
+  - gsd
+  - h5py
+  - jupyter
+  - jinja2
+  - lammps
+  - matplotlib
+  - mbuild
+  - mdtraj
+  - mosdef_cassandra
+  - numpy
+  - openmm>=7.6
+  - packmol>=18
+  - pandas
+  - panedr
+  - parmed>=3.4.3
+  - pymbar=3.0.5
+  - pytest
+  - python=3.10
+  - rdkit
+  - scipy=1.9.0
+  - seaborn
+  - signac=2.0.0
+  - signac-dashboard
+  - signac-flow=0.25.1
+  - unyt
+  - py3dmol
+  - garnett
+  - pycifrw
